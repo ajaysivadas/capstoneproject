@@ -14,6 +14,12 @@ public class HomePage {
 	@FindBy(id="logoutLink") private WebElement logoutButton;
 	
 	@FindBy(id="container_users") private WebElement usersModuleLink;
+	
+	@FindBy(xpath="//div[text()='Reports']") private WebElement reports;
+
+	public WebElement getClickOnReports() {
+		return reports;
+	}
 
 	public WebElement getLogoutButton() {
 		return logoutButton;

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully Launched Chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[Browser window is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41557" started-at="2022-03-02T19:11:06 IST" finished-at="2022-03-02T19:11:48 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41557" started-at="2022-03-02T19:11:06 IST" finished-at="2022-03-02T19:11:48 IST">
+      <class name="users.ReportCreation_Test">
+        <test-method status="PASS" signature="openTheBrowser(java.lang.String)[pri:0, instance:users.ReportCreation_Test@4b553d26]" name="openTheBrowser" is-config="true" duration-ms="9788" started-at="2022-03-02T19:11:06 IST" finished-at="2022-03-02T19:11:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully Launched Chrome Browser]]>
+            </line>
+            <line>
+              <![CDATA[Browser window is maximized successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openTheBrowser -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:users.ReportCreation_Test@4b553d26]" name="loginToApplication" is-config="true" duration-ms="8429" started-at="2022-03-02T19:11:16 IST" finished-at="2022-03-02T19:11:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="sample()[pri:0, instance:users.ReportCreation_Test@4b553d26]" name="sample" duration-ms="23178" started-at="2022-03-02T19:11:24 IST" finished-at="2022-03-02T19:11:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sample -->
+      </class> <!-- users.ReportCreation_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
