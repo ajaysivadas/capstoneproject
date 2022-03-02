@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 /***
  * 
- * @author Sumanth Keshav
+ * @author Ajay S
  *
  */
 public class JavaScriptUtil {
