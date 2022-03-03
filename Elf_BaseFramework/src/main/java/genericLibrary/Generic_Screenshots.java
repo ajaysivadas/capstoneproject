@@ -11,7 +11,7 @@ import org.openqa.selenium.WebDriver;
 
 /***
  * 
- * @author Ajay S
+ * @author Yogita
  *
  */
 public class Generic_Screenshots implements FrameworkConstants {

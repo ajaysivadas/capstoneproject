@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="users.ChartCreation_Test">
+      <class name="users.ReportCreation_Test">
         <methods>
+          <include name="sample"/>
           <include name="openTheBrowser"/>
           <include name="loginToApplication"/>
-          <include name="Create_Chart"/>
         </methods>
-      </class> <!-- users.ChartCreation_Test -->
+      </class> <!-- users.ReportCreation_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
