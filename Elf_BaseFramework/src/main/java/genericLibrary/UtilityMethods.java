@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 /***
  * 
- * @author Ajay S
+ * @author Yogita
  *
  */
 public class UtilityMethods {

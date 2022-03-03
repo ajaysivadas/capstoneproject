@@ -23,11 +23,9 @@ public class ChartCreation_Test extends Base_Class {
 		
 		ExcelUtil excelUtil = new ExcelUtil();
 		String expectedHomePageTitle = excelUtil.readStringDataFromExcel("Sheet1",4,0);
-		
 		Assert.assertEquals(driver.getTitle(),expectedHomePageTitle,"Home page is not displayed");
 		Reporter.log("Home page is displayed",true);
-		
-		String expectedReportPageTitle = excelUtil.readStringDataFromExcel("Sheet1",5,0);
+		String expectedReportPageTitle = excelUtil.readStringDataFromExcel("Sheet1",4,0);
 		Assert.assertEquals(driver.getTitle(),expectedReportPageTitle,"Reports page is not displayed");
 		Reporter.log("Reports page is displayed",true);
 		homePage.getClickOnReports().click();

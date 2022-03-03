@@ -15,11 +15,10 @@ public class ReportCreation_Test extends Base_Class{
 		ExcelUtil excelUtil = new ExcelUtil();
 		String reportName = excelUtil.readStringDataFromExcel("Sheet1",0,0);	
 		reportspage=new ReportsPage(driver);
-		//Click on the report button in the home page
 		String expectedHomePageTitle = excelUtil.readStringDataFromExcel("Sheet1",4,0);
 		Assert.assertEquals(driver.getTitle(),expectedHomePageTitle,"Home page is not displayed");
 		Reporter.log("Home page is displayed",true);
-
+		//Click on the report button in the home page
 		String expectedReportPageTitle = excelUtil.readStringDataFromExcel("Sheet1",4,0);
 		Assert.assertEquals(driver.getTitle(),expectedReportPageTitle,"Reports page is not displayed");
 		Reporter.log("Reports page is displayed",true);
@@ -28,7 +27,7 @@ public class ReportCreation_Test extends Base_Class{
 		reportspage.getClickNewReport().click();
 		//Click on the configure report in the new report window
 		reportspage.getClickOnConfigReport().click();
-		String expectedConfigHTMLReportPageTitle = excelUtil.readStringDataFromExcel("Sheet1",4,0);
+		String expectedConfigHTMLReportPageTitle = excelUtil.readStringDataFromExcel("Sheet1",6,0);
 		Assert.assertEquals(driver.getTitle(),expectedConfigHTMLReportPageTitle,"Configure html report page is not displayed");
 		Reporter.log("Configure html report page is displayed",true);
 		//Click on the Generate HTML Report on the Configure report window
